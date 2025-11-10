@@ -28,7 +28,6 @@ import lpABI from '../../constants/abi/lp'
 import { startAction, endAction, showToast } from '../../actions/common'
 
 let web3 = new Web3(Web3.givenProvider)
-let lhrcContract, stakingContract, lpContract
 
 const Swap = () => {
     const [swapSwitch, setSwapSwitch] = useState('swap')
