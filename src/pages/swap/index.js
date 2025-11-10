@@ -1,11 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from "react-router-dom"
-import { useSelector, useDispatch } from "react-redux"
+import { useSelector } from "react-redux"
 import { AiOutlineArrowDown } from "react-icons/ai";
 import Web3 from 'web3'
-import BigNumber from 'bignumber.js'
-import axios from 'axios'
-import Promise from 'bluebird'
 
 import Navbar from '../menu/navbar';
 
